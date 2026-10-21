@@ -22,7 +22,9 @@ export default function Hero() {
   target="_blank"
   rel="noopener noreferrer">
             Let’s build 
+             <span>
               <LuSquareArrowDownRight aria-hidden="true" />
+              </span> 
           </a>
           <a className="text-link" href="#services">
             Explore our services 
@@ -63,7 +65,7 @@ export default function Hero() {
           <span>{"{ }"}</span>Built around you
         </div>
         <div className="float-chip chip-speed">
-          <span>↗</span>Made for momentum
+          Made for momentum
         </div>
         <div className="hero-grid" />
       </div>
